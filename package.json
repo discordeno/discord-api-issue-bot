@@ -1,0 +1,27 @@
+{
+    "name": "discord-api-issue-bot",
+    "version": "1.0.0",
+    "main": "index.ts",
+    "type": "module",
+    "scripts": {
+        "bot": "ts-node index.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/discordeno/discord-api-issue-bot.git"
+    },
+    "author": "itohatweb",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/discordeno/discord-api-issue-bot/issues"
+    },
+    "homepage": "https://github.com/discordeno/discord-api-issue-bot#readme",
+    "devDependencies": {
+        "ts-node": "^10.9.1"
+    },
+    "dependencies": {
+        "@octokit/rest": "^19.0.7",
+        "discordeno": "^18.0.1",
+        "dotenv": "^16.0.3"
+    }
+}
