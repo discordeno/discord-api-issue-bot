@@ -1,10 +1,32 @@
-# Discordeno API tracking Bot
+# TypeScript Complete Sapphire Bot example
 
-I'm there to make it easier to keep track of the changes done to the Discord API by automatically opening an issue for every new commit made to the [Discord API Docs](https://github.com/discord/discord-api-docs) repository
+This is a more complete setup of a Discord bot using the [sapphire framework][sapphire] written in TypeScript.
 
-## Useful Links
+It is similar to the [starter setup](../with-typescript-starter/), but adds more data structures and a more complete setup.
 
--   [Discordeno](https://github.com/discordeno/discordeno)
--   [Website](https://discordeno.github.io/discordeno/)
--   [Documentation](https://doc.deno.land/https/deno.land/x/discordeno/mod.ts)
--   [Discord](https://discord.com/invite/5vBgXk3UcZ)
+## How to use it?
+
+### Prerequisite
+
+```sh
+npm install
+```
+
+### Development
+
+This example can be run with `tsc-watch` to watch the files and automatically restart your bot.
+
+```sh
+npm run watch:start
+```
+
+### Production
+
+You can also run the bot with `npm dev`, this will first build your code and then run `node ./dist/index.js`. But this is not the recommended way to run a bot in production.
+
+## License
+
+Dedicated to the public domain via the [Unlicense], courtesy of the Sapphire Community and its contributors.
+
+[sapphire]: https://github.com/sapphiredev/framework
+[unlicense]: https://github.com/sapphiredev/examples/blob/main/LICENSE.md
